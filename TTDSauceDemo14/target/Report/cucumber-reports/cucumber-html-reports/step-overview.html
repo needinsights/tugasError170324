@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>17 Mar 2024, 22:39</td>
+                        <td>17 Mar 2024, 23:24</td>
           </tr>
         </tbody>
       </table>
@@ -98,7 +98,144 @@ $(document).ready(function() {
 <div class="container-fluid" id="summary">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-              <p>You have no features in your cucumber report</p>
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">hooks.Hooks.closeBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="2078109000">2s 078ms</td>
+                <td class="duration" data-value="2078109000">2s 078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">hooks.Hooks.openBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="29876163700">29s 876ms</td>
+                <td class="duration" data-value="29876163700">29s 876ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.InventorySteps.userClickAddToCartItem(java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="6245787800">6s 245ms</td>
+                <td class="duration" data-value="3122893900">3s 122ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.InventorySteps.userSortProductBy(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="3300916300">3s 300ms</td>
+                <td class="duration" data-value="3300916300">3s 300ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.LoginSteps.userAlreadyOnDashboardPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="159026800">159ms</td>
+                <td class="duration" data-value="159026800">159ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.LoginSteps.userInputAsUserNameAndAsPassword(java.lang.String,java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="527586300">527ms</td>
+                <td class="duration" data-value="527586300">527ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.LoginSteps.userOpenTheAppSauceDemo()</td>
+                <td>1</td>
+                <td class="duration" data-value="303155300">303ms</td>
+                <td class="duration" data-value="303155300">303ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userClickCartButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="127443700">127ms</td>
+                <td class="duration" data-value="127443700">127ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userClickCheckoutButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="115456200">115ms</td>
+                <td class="duration" data-value="115456200">115ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userClickContinueButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="133377300">133ms</td>
+                <td class="duration" data-value="133377300">133ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userClickFinishButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="80836200">080ms</td>
+                <td class="duration" data-value="80836200">080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userInputAsFirstNameAsLastNameAsZipCode(java.lang.String,java.lang.String,java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="553177200">553ms</td>
+                <td class="duration" data-value="553177200">553ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userRedirectedToCheckoutCompletePage()</td>
+                <td>1</td>
+                <td class="duration" data-value="54618300">054ms</td>
+                <td class="duration" data-value="54618300">054ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userRedirectedToCheckoutStepOnePage()</td>
+                <td>1</td>
+                <td class="duration" data-value="151338500">151ms</td>
+                <td class="duration" data-value="151338500">151ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userRedirectedToCheckoutStepTwoPage()</td>
+                <td>1</td>
+                <td class="duration" data-value="66694700">066ms</td>
+                <td class="duration" data-value="66694700">066ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">step_definitions.PurchaseSteps.userRemoveFromShoppingCart()</td>
+                <td>1</td>
+                <td class="duration" data-value="155775600">155ms</td>
+                <td class="duration" data-value="155775600">155ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>16</td>
+              <td>17</td>
+              <td class="duration">43s 929ms</td>
+              <td class="duration">2s 584ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
           </div>
   </div>
 </div>

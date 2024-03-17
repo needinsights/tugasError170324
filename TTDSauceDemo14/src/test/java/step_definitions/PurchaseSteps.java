@@ -21,43 +21,34 @@ public class PurchaseSteps {
         public void userClickCartButton(){
             checkoutPage.clickCartButton();
     }
-
-    @And("User remove {string} from shopping cart")
+    @And("User remove Sauce Labs Bike Light from shopping cart")
     public void userRemoveFromShoppingCart() {
         checkoutPage.removeSauceLabs();
     }
-
     @And("User click Checkout button")
     public void userClickCheckoutButton() {
         checkoutPage.clickCheckoutButton();
-        
     }
-
     @Then("User redirected to Checkout Step One page")
     public void userRedirectedToCheckoutStepOnePage() {
         Assert.assertTrue(checkoutPage.verivyCheckoutStepOne());
     }
-
     @And("User input {string} as FirstName {string} as LastName {string} as ZipCode")
     public void userInputAsFirstNameAsLastNameAsZipCode(String firstname, String lastname, String zipcode) {
         checkoutPage.inputFirstName(firstname,lastname,zipcode);
     }
-
     @And("User click Continue button")
     public void userClickContinueButton() {
         checkoutPage.clickContinueButton();
     }
-
     @Then("User redirected to Checkout Step Two page")
     public void userRedirectedToCheckoutStepTwoPage() {
         Assert.assertTrue(checkoutPage.verivyCheckoutStepTwo());
     }
-
     @And("User click Finish button")
     public void userClickFinishButton() {
         checkoutPage.clickFinishButton();
     }
-
     @Then("User redirected to Checkout Complete page")
     public void userRedirectedToCheckoutCompletePage() {
         Assert.assertTrue(checkoutPage.verivyCheckoutComplete());
