@@ -1,0 +1,4 @@
+org\example\pageObject\LoginPage.class
+demo.class
+org\example\pageObject\InventoryPage.class
+org\example\pageObject\CheckoutPage.class
